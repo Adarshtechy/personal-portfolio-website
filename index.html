@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addanki Adarsh | Web Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Adarsh, a Web Developer skilled in HTML, CSS, and JavaScript.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Skip to Main Content for Accessibility -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="logo-link" aria-label="Go to homepage">
+                        <img src="./logo.jpg" alt="Delicious Food Co. logo" class="logo-image">
+                    </a>
+                </div>
+
+
+                <button class="theme-toggle" aria-label="Toggle dark/light mode" type="button">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+
+                <nav class="nav" aria-label="Main Navigation">
+                    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" type="button">
+                        <span class="hamburger"></span>
+                    </button>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero section" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <p class="hero-greeting">Hi, There!</p>
+                        <h2 id="hero-title" class="hero-title">I'm <span class="highlight">Adarsh</span></h2>
+                        <p class="hero-description">
+                            I am a Web Developer skilled in Frontend Technologies, such as HTML, CSS, and JavaScript,
+                            creating interactive web experiences. I'm passionate about blending design aesthetics with
+                            functionality.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="My Resume.pdf" download class="btn btn-primary" aria-label="Download my resume">
+                                <i class="fas fa-download" aria-hidden="true"></i> Download CV
+                            </a>
+                            <a href="#contact" class="btn btn-outline" aria-label="Get in touch with me">Get In
+                                Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-wrapper">
+                            <img src="Profile.jpg" alt="Portrait of Adarsh" width="350" height="350"
+                                class="profile-image">
+                            <div class="image-decoration" aria-hidden="true"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="projects-title" class="section-title">My <span class="highlight">Projects</span></h2>
+                    <p class="section-subtitle">Here are some of my recent works</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-icon" aria-hidden="true">
+                            <i class="fas fa-table-columns"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">KFC Landing Page</h3>
+                            <p class="project-description">
+                                A page crafted using HTML, CSS showcasing a modern design and interactive elements,
+                                serving as a template for diverse web projects.
+                            </p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-icon" aria-hidden="true">
+                            <i class="fas fa-temperature-low"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Temperature Converter</h3>
+                            <p class="project-description">
+                                A converter built with HTML, CSS, and JavaScript, offering an intuitive interface for
+                                temperature conversion between units.
+                            </p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-icon" aria-hidden="true">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Login Register Page</h3>
+                            <p class="project-description">
+                                A sleek login &amp; register page designed using HTML, CSS ensuring user-friendly
+                                interactions and modern UI design.
+                            </p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="contact-title" class="section-title">Contact <span class="highlight">Me!</span></h2>
+                    <p class="section-subtitle">Feel free to reach out for collaboration or opportunities</p>
+                </div>
+
+                <form id="contact-form" class="contact-form" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Enter your full name"
+                            required>
+                        <div class="error-message" id="name-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-input"
+                            placeholder="Enter your email address" required>
+                        <div class="error-message" id="email-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-textarea"
+                            placeholder="Type your message here..." rows="5" required></textarea>
+                        <div class="error-message" id="message-error"></div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+                    </button>
+                </form>
+
+                <div class="contact-info">
+                    <p>You can also reach me at: <a href="mailto:example@email.com"
+                            class="contact-email">adarsh@email.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">
+                    © <span id="current-year"></span> <a href="#home" class="footer-link">Adarsh</a> - All Rights
+                    Reserved.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="GitHub profile"><i class="fab fa-github"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn profile"><i class="fab fa-linkedin"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter profile"><i class="fab fa-twitter"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

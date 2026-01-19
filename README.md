@@ -1,4 +1,4 @@
-## Personal Portfolio Website
+# Personal Portfolio Website
 
 A responsive and accessible personal portfolio website built using HTML, CSS, and JavaScript.  
 This project showcases my skills, projects, and contact information with a clean UI and modern frontend practices.
